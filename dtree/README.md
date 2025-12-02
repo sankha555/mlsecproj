@@ -1,5 +1,5 @@
 <h1 align="center">
-ExpProof-Dtree
+Cleartext Decision Tree Semantics
 </h1>
 
 This code supports training of global surrogate tree for neural networks which can be used for model explainability. 
