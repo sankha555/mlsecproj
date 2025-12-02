@@ -1,0 +1,357 @@
+{
+    "leaf": false,
+    "feature": "PAY_0",
+    "threshold": 1.349638044834137,
+    "samples": 24000,
+    "left": {
+        "leaf": false,
+        "feature": "PAY_2",
+        "threshold": 1.364695131778717,
+        "samples": 21497,
+        "left": {
+            "leaf": false,
+            "feature": "PAY_5",
+            "threshold": 1.1173978224396706,
+            "samples": 19662,
+            "left": {
+                "leaf": false,
+                "feature": "PAY_0",
+                "threshold": 0.4597863615490496,
+                "samples": 18862,
+                "left": {
+                    "leaf": false,
+                    "feature": "PAY_3",
+                    "threshold": 0.9743930324912071,
+                    "samples": 17408,
+                    "left": {
+                        "leaf": false,
+                        "feature": "PAY_4",
+                        "threshold": 1.0440909191966057,
+                        "samples": 16675,
+                        "left": {
+                            "leaf": false,
+                            "feature": "PAY_AMT6",
+                            "threshold": 4.471999883651733,
+                            "samples": 16312,
+                            "left": {
+                                "leaf": false,
+                                "feature": "BILL_AMT1",
+                                "threshold": -0.6862033605575562,
+                                "samples": 16112,
+                                "left": {
+                                    "leaf": true,
+                                    "class": 0,
+                                    "samples": 1710
+                                },
+                                "right": {
+                                    "leaf": true,
+                                    "class": 0,
+                                    "samples": 14402
+                                }
+                            },
+                            "right": {
+                                "leaf": true,
+                                "class": 0,
+                                "samples": 200
+                            }
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 363
+                        }
+                    },
+                    "right": {
+                        "leaf": false,
+                        "feature": "BILL_AMT4",
+                        "threshold": -0.45575371384620667,
+                        "samples": 733,
+                        "left": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 309
+                        },
+                        "right": {
+                            "leaf": false,
+                            "feature": "BILL_AMT4",
+                            "threshold": -0.06080896034836769,
+                            "samples": 424,
+                            "left": {
+                                "leaf": true,
+                                "class": 0,
+                                "samples": 214
+                            },
+                            "right": {
+                                "leaf": true,
+                                "class": 0,
+                                "samples": 210
+                            }
+                        }
+                    }
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "AGE",
+                    "threshold": 1.1949227452278137,
+                    "samples": 1454,
+                    "left": {
+                        "leaf": false,
+                        "feature": "PAY_6",
+                        "threshold": -1.0512461960315704,
+                        "samples": 1237,
+                        "left": {
+                            "leaf": false,
+                            "feature": "EDUCATION",
+                            "threshold": -0.4468144550919533,
+                            "samples": 578,
+                            "left": {
+                                "leaf": true,
+                                "class": 0,
+                                "samples": 298
+                            },
+                            "right": {
+                                "leaf": true,
+                                "class": 0,
+                                "samples": 280
+                            }
+                        },
+                        "right": {
+                            "leaf": false,
+                            "feature": "PAY_AMT4",
+                            "threshold": -0.2848273664712906,
+                            "samples": 659,
+                            "left": {
+                                "leaf": true,
+                                "class": 0,
+                                "samples": 245
+                            },
+                            "right": {
+                                "leaf": false,
+                                "feature": "BILL_AMT5",
+                                "threshold": -0.5861951112747192,
+                                "samples": 414,
+                                "left": {
+                                    "leaf": true,
+                                    "class": 0,
+                                    "samples": 214
+                                },
+                                "right": {
+                                    "leaf": true,
+                                    "class": 0,
+                                    "samples": 200
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 217
+                    }
+                }
+            },
+            "right": {
+                "leaf": false,
+                "feature": "LIMIT_BAL",
+                "threshold": -0.9440352022647858,
+                "samples": 800,
+                "left": {
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 218
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "BILL_AMT1",
+                    "threshold": -0.3574246019124985,
+                    "samples": 582,
+                    "left": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 211
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 371
+                    }
+                }
+            }
+        },
+        "right": {
+            "leaf": false,
+            "feature": "PAY_5",
+            "threshold": 1.1173978224396706,
+            "samples": 1835,
+            "left": {
+                "leaf": false,
+                "feature": "PAY_3",
+                "threshold": 0.9743930324912071,
+                "samples": 1276,
+                "left": {
+                    "leaf": false,
+                    "feature": "PAY_AMT2",
+                    "threshold": -0.19596650451421738,
+                    "samples": 754,
+                    "left": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 207
+                    },
+                    "right": {
+                        "leaf": false,
+                        "feature": "BILL_AMT6",
+                        "threshold": -0.34572096168994904,
+                        "samples": 547,
+                        "left": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 211
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 336
+                        }
+                    }
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "BILL_AMT3",
+                    "threshold": -0.3467089831829071,
+                    "samples": 522,
+                    "left": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 318
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 204
+                    }
+                }
+            },
+            "right": {
+                "leaf": false,
+                "feature": "PAY_AMT4",
+                "threshold": -0.25051718950271606,
+                "samples": 559,
+                "left": {
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 340
+                },
+                "right": {
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 219
+                }
+            }
+        }
+    },
+    "right": {
+        "leaf": false,
+        "feature": "PAY_5",
+        "threshold": -0.20632412284612656,
+        "samples": 2503,
+        "left": {
+            "leaf": true,
+            "class": 1,
+            "samples": 201
+        },
+        "right": {
+            "leaf": false,
+            "feature": "EDUCATION",
+            "threshold": 0.8184709772467613,
+            "samples": 2302,
+            "left": {
+                "leaf": false,
+                "feature": "PAY_6",
+                "threshold": 1.1227264553308487,
+                "samples": 1783,
+                "left": {
+                    "leaf": false,
+                    "feature": "PAY_AMT1",
+                    "threshold": -0.26484207808971405,
+                    "samples": 981,
+                    "left": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 303
+                    },
+                    "right": {
+                        "leaf": false,
+                        "feature": "LIMIT_BAL",
+                        "threshold": -0.17329558730125427,
+                        "samples": 678,
+                        "left": {
+                            "leaf": false,
+                            "feature": "BILL_AMT2",
+                            "threshold": 0.01194876991212368,
+                            "samples": 477,
+                            "left": {
+                                "leaf": true,
+                                "class": 1,
+                                "samples": 277
+                            },
+                            "right": {
+                                "leaf": true,
+                                "class": 1,
+                                "samples": 200
+                            }
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 201
+                        }
+                    }
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "BILL_AMT2",
+                    "threshold": 0.2654663473367691,
+                    "samples": 802,
+                    "left": {
+                        "leaf": false,
+                        "feature": "PAY_AMT6",
+                        "threshold": -0.2932695597410202,
+                        "samples": 565,
+                        "left": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 256
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 309
+                        }
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 237
+                    }
+                }
+            },
+            "right": {
+                "leaf": false,
+                "feature": "PAY_5",
+                "threshold": 1.1173978224396706,
+                "samples": 519,
+                "left": {
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 290
+                },
+                "right": {
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 229
+                }
+            }
+        }
+    }
+}

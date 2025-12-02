@@ -1,0 +1,258 @@
+{
+    "leaf": false,
+    "feature": "PAY_2",
+    "threshold": 1.364695131778717,
+    "samples": 24000,
+    "left": {
+        "leaf": false,
+        "feature": "PAY_0",
+        "threshold": 1.349638044834137,
+        "samples": 20450,
+        "left": {
+            "leaf": false,
+            "feature": "PAY_4",
+            "threshold": 0.6164184734225273,
+            "samples": 19662,
+            "left": {
+                "leaf": false,
+                "feature": "PAY_3",
+                "threshold": 0.5566289350390434,
+                "samples": 18694,
+                "left": {
+                    "leaf": false,
+                    "feature": "PAY_5",
+                    "threshold": 1.1173978224396706,
+                    "samples": 18038,
+                    "left": {
+                        "leaf": false,
+                        "feature": "AGE",
+                        "threshold": 2.496758818626404,
+                        "samples": 17684,
+                        "left": {
+                            "leaf": false,
+                            "feature": "PAY_0",
+                            "threshold": 0.4597863615490496,
+                            "samples": 17445,
+                            "left": {
+                                "leaf": true,
+                                "class": 0,
+                                "samples": 16102
+                            },
+                            "right": {
+                                "leaf": true,
+                                "class": 0,
+                                "samples": 1343
+                            }
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 239
+                        }
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 354
+                    }
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "PAY_AMT3",
+                    "threshold": -0.1684408113360405,
+                    "samples": 656,
+                    "left": {
+                        "leaf": false,
+                        "feature": "PAY_AMT1",
+                        "threshold": -0.15402282029390335,
+                        "samples": 401,
+                        "left": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 201
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 200
+                        }
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 255
+                    }
+                }
+            },
+            "right": {
+                "leaf": false,
+                "feature": "PAY_5",
+                "threshold": 1.1173978224396706,
+                "samples": 968,
+                "left": {
+                    "leaf": false,
+                    "feature": "MARRIAGE",
+                    "threshold": -0.09936884045600891,
+                    "samples": 529,
+                    "left": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 247
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 282
+                    }
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "PAY_3",
+                    "threshold": 0.5566289350390434,
+                    "samples": 439,
+                    "left": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 226
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 213
+                    }
+                }
+            }
+        },
+        "right": {
+            "leaf": false,
+            "feature": "BILL_AMT3",
+            "threshold": -0.4337984323501587,
+            "samples": 788,
+            "left": {
+                "leaf": true,
+                "class": 1,
+                "samples": 200
+            },
+            "right": {
+                "leaf": false,
+                "feature": "LIMIT_BAL",
+                "threshold": -0.7898872792720795,
+                "samples": 588,
+                "left": {
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 231
+                },
+                "right": {
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 357
+                }
+            }
+        }
+    },
+    "right": {
+        "leaf": false,
+        "feature": "PAY_3",
+        "threshold": 0.9743930324912071,
+        "samples": 3550,
+        "left": {
+            "leaf": false,
+            "feature": "PAY_0",
+            "threshold": 1.349638044834137,
+            "samples": 1191,
+            "left": {
+                "leaf": false,
+                "feature": "LIMIT_BAL",
+                "threshold": -0.17329558730125427,
+                "samples": 873,
+                "left": {
+                    "leaf": false,
+                    "feature": "BILL_AMT2",
+                    "threshold": -0.3172580450773239,
+                    "samples": 595,
+                    "left": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 349
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 246
+                    }
+                },
+                "right": {
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 278
+                }
+            },
+            "right": {
+                "leaf": true,
+                "class": 1,
+                "samples": 318
+            }
+        },
+        "right": {
+            "leaf": false,
+            "feature": "BILL_AMT3",
+            "threshold": -0.6448492705821991,
+            "samples": 2359,
+            "left": {
+                "leaf": true,
+                "class": 1,
+                "samples": 251
+            },
+            "right": {
+                "leaf": false,
+                "feature": "PAY_0",
+                "threshold": 1.349638044834137,
+                "samples": 2108,
+                "left": {
+                    "leaf": false,
+                    "feature": "PAY_5",
+                    "threshold": 1.1173978224396706,
+                    "samples": 810,
+                    "left": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 386
+                    },
+                    "right": {
+                        "leaf": false,
+                        "feature": "AGE",
+                        "threshold": -0.323885977268219,
+                        "samples": 424,
+                        "left": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 210
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 214
+                        }
+                    }
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "LIMIT_BAL",
+                    "threshold": -0.0191476596519351,
+                    "samples": 1298,
+                    "left": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 1054
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 244
+                    }
+                }
+            }
+        }
+    }
+}

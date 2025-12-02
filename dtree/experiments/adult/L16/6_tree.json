@@ -1,0 +1,236 @@
+{
+    "leaf": false,
+    "feature": "marital-status_Married-civ-spouse",
+    "threshold": 0.5,
+    "samples": 26048,
+    "left": {
+        "leaf": false,
+        "feature": "capital-gain",
+        "threshold": 0.5175028443336487,
+        "samples": 14046,
+        "left": {
+            "leaf": false,
+            "feature": "education-num",
+            "threshold": 1.329088568687439,
+            "samples": 13742,
+            "left": {
+                "leaf": false,
+                "feature": "capital-loss",
+                "threshold": 3.5902262926101685,
+                "samples": 13030,
+                "left": {
+                    "leaf": false,
+                    "feature": "education-num",
+                    "threshold": 0.9403889775276184,
+                    "samples": 12703,
+                    "left": {
+                        "leaf": false,
+                        "feature": "capital-gain",
+                        "threshold": 0.14858829975128174,
+                        "samples": 10793,
+                        "left": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 10592
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 201
+                        }
+                    },
+                    "right": {
+                        "leaf": false,
+                        "feature": "relationship_Unmarried",
+                        "threshold": 0.5,
+                        "samples": 1910,
+                        "left": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 1657
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 253
+                        }
+                    }
+                },
+                "right": {
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 327
+                }
+            },
+            "right": {
+                "leaf": false,
+                "feature": "hours-per-week",
+                "threshold": 0.24803473055362701,
+                "samples": 712,
+                "left": {
+                    "leaf": false,
+                    "feature": "age",
+                    "threshold": 0.21395201236009598,
+                    "samples": 443,
+                    "left": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 220
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 223
+                    }
+                },
+                "right": {
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 269
+                }
+            }
+        },
+        "right": {
+            "leaf": true,
+            "class": 1,
+            "samples": 304
+        }
+    },
+    "right": {
+        "leaf": false,
+        "feature": "education-num",
+        "threshold": 0.5516893565654755,
+        "samples": 12002,
+        "left": {
+            "leaf": false,
+            "feature": "capital-gain",
+            "threshold": 0.3771542012691498,
+            "samples": 8022,
+            "left": {
+                "leaf": false,
+                "feature": "occupation_Exec-managerial",
+                "threshold": 0.5,
+                "samples": 7479,
+                "left": {
+                    "leaf": false,
+                    "feature": "capital-loss",
+                    "threshold": 4.2069220542907715,
+                    "samples": 6697,
+                    "left": {
+                        "leaf": false,
+                        "feature": "education-num",
+                        "threshold": -0.2257098238915205,
+                        "samples": 6485,
+                        "left": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 4438
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 0,
+                            "samples": 2047
+                        }
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 212
+                    }
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "age",
+                    "threshold": -0.1526108980178833,
+                    "samples": 782,
+                    "left": {
+                        "leaf": true,
+                        "class": 0,
+                        "samples": 224
+                    },
+                    "right": {
+                        "leaf": false,
+                        "feature": "education-num",
+                        "threshold": -0.2257098238915205,
+                        "samples": 558,
+                        "left": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 287
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 271
+                        }
+                    }
+                }
+            },
+            "right": {
+                "leaf": false,
+                "feature": "capital-gain",
+                "threshold": 0.8063245713710785,
+                "samples": 543,
+                "left": {
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 206
+                },
+                "right": {
+                    "leaf": true,
+                    "class": 1,
+                    "samples": 337
+                }
+            }
+        },
+        "right": {
+            "leaf": false,
+            "feature": "hours-per-week",
+            "threshold": -0.7643373310565948,
+            "samples": 3980,
+            "left": {
+                "leaf": true,
+                "class": 0,
+                "samples": 330
+            },
+            "right": {
+                "leaf": false,
+                "feature": "age",
+                "threshold": -0.6657989919185638,
+                "samples": 3650,
+                "left": {
+                    "leaf": true,
+                    "class": 0,
+                    "samples": 284
+                },
+                "right": {
+                    "leaf": false,
+                    "feature": "education_Assoc-acdm",
+                    "threshold": 0.5,
+                    "samples": 3366,
+                    "left": {
+                        "leaf": false,
+                        "feature": "workclass_Self-emp-not-inc",
+                        "threshold": 0.5,
+                        "samples": 3079,
+                        "left": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 2761
+                        },
+                        "right": {
+                            "leaf": true,
+                            "class": 1,
+                            "samples": 318
+                        }
+                    },
+                    "right": {
+                        "leaf": true,
+                        "class": 1,
+                        "samples": 287
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "leaf": false,
+    "feature": "marital-status_Married-civ-spouse",
+    "threshold": 0.5,
+    "samples": 26048,
+    "left": {
+        "leaf": false,
+        "feature": "capital-gain",
+        "threshold": 0.8118762373924255,
+        "samples": 14046,
+        "left": {
+            "leaf": false,
+            "feature": "education-num",
+            "threshold": 1.329088568687439,
+            "samples": 13798,
+            "left": {
+                "leaf": true,
+                "class": 0,
+                "samples": 13078
+            },
+            "right": {
+                "leaf": true,
+                "class": 0,
+                "samples": 720
+            }
+        },
+        "right": {
+            "leaf": true,
+            "class": 1,
+            "samples": 248
+        }
+    },
+    "right": {
+        "leaf": false,
+        "feature": "education-num",
+        "threshold": 0.9403889775276184,
+        "samples": 12002,
+        "left": {
+            "leaf": false,
+            "feature": "capital-gain",
+            "threshold": 0.3771542012691498,
+            "samples": 8389,
+            "left": {
+                "leaf": true,
+                "class": 0,
+                "samples": 7814
+            },
+            "right": {
+                "leaf": true,
+                "class": 1,
+                "samples": 575
+            }
+        },
+        "right": {
+            "leaf": false,
+            "feature": "hours-per-week",
+            "threshold": -0.7643373310565948,
+            "samples": 3613,
+            "left": {
+                "leaf": true,
+                "class": 0,
+                "samples": 292
+            },
+            "right": {
+                "leaf": true,
+                "class": 1,
+                "samples": 3321
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+name: expproof-dtree
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+
+  # Neural network framework
+  - pytorch=2.1
+  - torchvision
+  - cpuonly  # remove this if you want GPU
+
+  # ML + data tools
+  - scikit-learn=1.3
+  - numpy
+  - scipy
+  - pandas
+
+  # Optional but useful for LIME comparison
+  - pip
+  - pip:
+      - lime==0.2.0.1
+      - shap
+      - xlrd
+
+  # Plotting / debugging
+  - matplotlib
+  - seaborn

@@ -1,0 +1,71 @@
+{
+    "leaf": false,
+    "feature": "PAY_0",
+    "threshold": 1.349638044834137,
+    "samples": 24000,
+    "left": {
+        "leaf": false,
+        "feature": "PAY_2",
+        "threshold": 1.364695131778717,
+        "samples": 21497,
+        "left": {
+            "leaf": false,
+            "feature": "PAY_5",
+            "threshold": 1.1173978224396706,
+            "samples": 19662,
+            "left": {
+                "leaf": true,
+                "class": 0,
+                "samples": 18862
+            },
+            "right": {
+                "leaf": true,
+                "class": 0,
+                "samples": 800
+            }
+        },
+        "right": {
+            "leaf": false,
+            "feature": "PAY_5",
+            "threshold": 1.1173978224396706,
+            "samples": 1835,
+            "left": {
+                "leaf": true,
+                "class": 0,
+                "samples": 1276
+            },
+            "right": {
+                "leaf": true,
+                "class": 1,
+                "samples": 559
+            }
+        }
+    },
+    "right": {
+        "leaf": false,
+        "feature": "PAY_5",
+        "threshold": -0.20632412284612656,
+        "samples": 2503,
+        "left": {
+            "leaf": true,
+            "class": 1,
+            "samples": 201
+        },
+        "right": {
+            "leaf": false,
+            "feature": "EDUCATION",
+            "threshold": 0.8184709772467613,
+            "samples": 2302,
+            "left": {
+                "leaf": true,
+                "class": 1,
+                "samples": 1783
+            },
+            "right": {
+                "leaf": true,
+                "class": 1,
+                "samples": 519
+            }
+        }
+    }
+}
