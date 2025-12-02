@@ -19,11 +19,11 @@ This experiment runs
 ### Tree JSON
 
 You can find the tree JSON for different layers of neural network and different tree depths 
-in the [Adult Surrogate trees](experiments/adult) and [Credit Surrogate trees](experiments/credit) directories.
+in the [Adult Surrogate trees](dtree/experiments/adult) and [Credit Surrogate trees](dtree/experiments/credit) directories.
 
 ### Heatmap Plot
 
-The heatmap code and plot is also availble in the [Experiments](experiments) directory. 
+The heatmap code and plot is also availble in the [Experiments](dtree/experiments) directory. 
 
 <hr>
 
